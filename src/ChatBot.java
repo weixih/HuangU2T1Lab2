@@ -44,5 +44,18 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
-}
 
+    public int multiplication(int num1, int num2) {
+        return num1 * num2;
+    }
+
+    public void money(int money){
+        if (money > 49){
+            System.out.println("You have " + money + " and you are rich.");
+        }else {
+            System.out.println("YOu have " + money + " and you are poor.");
+        }
+
+    }
+
+}
